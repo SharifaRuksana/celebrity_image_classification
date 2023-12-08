@@ -1,6 +1,5 @@
 # celebrity_image_classification
 
-IMAGE CLASSIFICATION MODEL
 
 The code given is for a Deep Learning model using TensorFlow and Keras to classify images of five different celebrities: Lionel Messi, Maria Sharapova, Roger Federer, Serena Williams, and Virat Kohli. The script covers various aspects of the typical workflow in building, training, and evaluating a Convolutional Neural Network (CNN) for image classification.
 
