@@ -19,13 +19,13 @@ The code given is for a Deep Learning model using TensorFlow and Keras to classi
 
  5. Model Definition:
 - A Sequential model is defined using Keras.
-- Convolutional layers (Conv2D) with ReLU activation and max-pooling layers are stacked.
+- Convolutional layers (Conv2D) with "ReLU" activation and max-pooling layers are stacked.
 - A flatten layer is added to transition from convolutional layers to dense layers.
-- Dense layers with ReLU activation are added, and the final layer uses softmax activation for multi-class classification.
+- Dense layers with 'ReLU' activation are added, and the final layer uses softmax activation for multi-class classification.
 - The model summary is printed.
 
  6. Model Compilation:
-- The model is compiled with the Adam optimizer and sparse categorical crossentropy loss for multi-class classification.
+- The model is compiled with the 'Adam' optimizer and 'sparse_categorical_crossentropy'  loss for multi-class classification.
 - Accuracy is chosen as the metric.
 
  7. Model Training:
